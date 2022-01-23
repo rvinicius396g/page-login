@@ -1,0 +1,60 @@
+
+body {
+    background-color: #81259d;
+}
+ 
+.container,fieldset {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* width: 500px; */
+    margin: 0 auto;
+}
+input {
+    border: 0;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+legend{
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #39322b;
+}
+fieldset {
+    border: 0;
+}
+
+.loginarea{ 
+    max-width: 260px;
+    background-color: #ffffff;
+    margin-top: 200px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#bcpf,#bsenha {
+    margin: 10px 0;
+    
+}
+
+
+button {
+    margin: 30px auto;
+    border-color: #e8e8e8;
+    color: #e8e8e8;
+    box-shadow: 0;
+    background-color: #fff;
+    padding: 15px 70px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+p{
+    text-align: center;
+    margin: 8px;
+}
+p a {
+    color: #aa76d7;
+    text-decoration: none;
+}
